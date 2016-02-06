@@ -1,0 +1,34 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It brought attention to differences between the old and new versions, which allowed me to skip past all the lines that were the same.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+It would vastly improve your efficiency in debugging code - you would be able to track down when the bug was introduced and look for differences between newer and older versions there.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros:
+	- You wont have as much clutter in your history
+	- You wont have the issue of something not compiling due to a save in the middle of you typing a line
+	- You can choose logical points to commit, rather than just every hour
+ Cons:
+ 	- User error, e.g. you may forget to commit
+ 	- You could end up with even more clutter if you commit too often
+
+ Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file seperately?
+
+ Because Git was designed with code in mind, whereas Google Docs wasn't.  Often large coding projects will span many interrelated files that may need to be changed at the same time to implement a feature or fix a bug.  Thus it makes sense to include them in the same commit as they are part of the same logical change in this example.
+
+ How can you use the commands git log and git diff to view the history of files?
+
+ Git log can show you a history of all commits of files.  Git diff can compare and show differences between two files, e.g. two different commits.
+
+ How might using version control make you more confident to make changes that could break something?
+
+ With version control it is much easier to pinpoint when and how you broke something.  Also you have the previous version that still works to fall back on.
+
+How do you want to use Git?
+
+I want to use it to be more effective at work - getting coding projects done faster, cleaner and more safely.
+
