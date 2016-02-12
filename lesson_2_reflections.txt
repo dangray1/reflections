@@ -7,3 +7,12 @@ How is the staging area different from the working directory and the repository?
 The staging area allows you to select only certain changes to your working directory as candidates to be committed to
 your repo.  This allows you to commit things you are happy with while leaving others, and lets you split your commits
 more logically.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+By only adding one file to it at a time before committing.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When two different features are being worked on simultaneously.  Splitting this into two branches would seperate the
+commit histories and make it easier to trace logical changes in the code.
